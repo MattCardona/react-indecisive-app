@@ -1,0 +1,36 @@
+{
+  "name": "indecisive-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "express": "^4.16.3",
+    "live-server": "^1.2.0",
+    "node-sass": "^4.5.3",
+    "normalize.css": "^7.0.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-modal": "^3.1.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0",
+    "validator": "^9.1.1",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "serve": "live-server public/",
+    "build:dev": "webpack",
+    "build:prod": "webpack -p --env production",
+    "dev-server": "webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC"
+}
