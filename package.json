@@ -20,7 +20,7 @@
     "react-modal": "^3.11.1",
     "sass-loader": "^6.0.7",
     "style-loader": "^0.19.1",
-    "validator": "^9.4.1",
+    "validator": "^13.7.0",
     "webpack": "^4.41.2",
     "webpack-dev-server": "^3.11.0"
   },
